@@ -37,7 +37,7 @@ function generateFlores (){
     var flor = document.createElement('div'); //. algo o () algo es para que se aplica a ello , que haga ese método
     flor.setAttribute("class", "flor"); //aquí pongo el set atribute que dice la página
     flores.appendChild(flor); //este es el cuadrado que se crea que caen enn el div de flores
-    
+    //prueba//
     
     function fallDownFlor(){
         if (florBottom < circuloBottom + 50 && florBottom > circuloBottom && florLeft > circuloLeft - 30 && florLeft < circuloLeft + 80 ) {
