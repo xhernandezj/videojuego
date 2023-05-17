@@ -33,6 +33,22 @@ function generateFlores (){
     var florBottom = 470;
     var florLeft = Math.floor(Math.random() * 620);
 
+
+    const svg = document.querySelector("svg");
+    const svgns = "http://www.w3.org/2000/svg";
+
+    let newRect = document.createElementNS(svgns, "rect");
+
+    newRect.setAttribute("x", "150");
+    newRect.setAttribute("y", "150");
+    newRect.setAttribute("width", "100");
+    newRect.setAttribute("height", "100");
+    newRect.setAttribute("fill", "#5cceee");
+
+    svg.appendChild(newRect);
+
+    
+
     //create element ns y poner aquí el svg//
     var flor = document.createElement('div'); //. algo o () algo es para que se aplica a ello , que haga ese método
     flor.setAttribute("class", "flor"); //aquí pongo el set atribute que dice la página
