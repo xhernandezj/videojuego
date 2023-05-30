@@ -44,4 +44,24 @@ left: calc(50% - 25px);
     position: absolute;
     background-color: rgb(253, 253, 171);
 }
+
+#florsvg {
+    background-image: #FFFF00;
+    color: #FFFF00;
+    fill: #FF0000;
+}
+#colorChanger {
+    height: 100%;
+    width: 100%;
+    mix-blend-mode: hue;
+    background-color: #ff00ff;
+}
+
+#Capa_1 {
+    fill: #aa00ff;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
 /*traer el svg de la flor y poner en el html me traigo el atributo de fill*/
